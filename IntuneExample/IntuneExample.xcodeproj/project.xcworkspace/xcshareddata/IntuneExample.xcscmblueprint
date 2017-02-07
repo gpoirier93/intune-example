@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1F439382997E8FAD74978B145FA1C78DBF85E614",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D976B633463935E7B75CE0633D20C63D0CFC580F" : 9223372036854775807,
+    "49839CDBA3606365C76D6A7C893B03090DA93A68" : 9223372036854775807,
+    "1F439382997E8FAD74978B145FA1C78DBF85E614" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B065819D-D1C9-4B76-AE3C-1DFBFFC6F080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D976B633463935E7B75CE0633D20C63D0CFC580F" : "ms-intune-app-sdk-ios\/",
+    "49839CDBA3606365C76D6A7C893B03090DA93A68" : "intune-example\/IntuneExample\/adal\/",
+    "1F439382997E8FAD74978B145FA1C78DBF85E614" : "intune-example\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IntuneExample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IntuneExample\/IntuneExample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gpoirier93\/intune-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F439382997E8FAD74978B145FA1C78DBF85E614"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AzureAD\/azure-activedirectory-library-for-objc",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "49839CDBA3606365C76D6A7C893B03090DA93A68"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/msintuneappsdk\/ms-intune-app-sdk-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D976B633463935E7B75CE0633D20C63D0CFC580F"
+    }
+  ]
+}

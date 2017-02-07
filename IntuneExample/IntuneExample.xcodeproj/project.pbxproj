@@ -12,7 +12,88 @@
 		F0060E0F1E48C54B005D26AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0060E0D1E48C54B005D26AB /* Main.storyboard */; };
 		F0060E111E48C54B005D26AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0060E101E48C54B005D26AB /* Assets.xcassets */; };
 		F0060E141E48C54B005D26AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0060E121E48C54B005D26AB /* LaunchScreen.storyboard */; };
+		F0060E1D1E48C6AE005D26AB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E1C1E48C6AE005D26AB /* MessageUI.framework */; };
+		F0060E1F1E48C6B6005D26AB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E1E1E48C6B6005D26AB /* Security.framework */; };
+		F0060E211E48C6BF005D26AB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E201E48C6BF005D26AB /* MobileCoreServices.framework */; };
+		F0060E231E48C6C9005D26AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E221E48C6C9005D26AB /* SystemConfiguration.framework */; };
+		F0060E251E48C6D3005D26AB /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E241E48C6D3005D26AB /* libsqlite3.tbd */; };
+		F0060E271E48C6E1005D26AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E261E48C6E1005D26AB /* libc++.tbd */; };
+		F0060E291E48C6E8005D26AB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E281E48C6E8005D26AB /* ImageIO.framework */; };
+		F0060E2B1E48C6EF005D26AB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E2A1E48C6EF005D26AB /* LocalAuthentication.framework */; };
+		F0060E2D1E48C6F7005D26AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E2C1E48C6F7005D26AB /* AudioToolbox.framework */; };
+		F0060E2F1E48C70B005D26AB /* IntuneMAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E2E1E48C70B005D26AB /* IntuneMAM.framework */; };
+		F0060E311E48C762005D26AB /* IntuneMAMResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0060E301E48C762005D26AB /* IntuneMAMResources.bundle */; };
+		F0060E4E1E48D509005D26AB /* ADAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E461E48D034005D26AB /* ADAL.framework */; };
+		F0060E4F1E48D509005D26AB /* ADAL.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E461E48D034005D26AB /* ADAL.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0060E541E48D537005D26AB /* IntuneMAM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0060E2E1E48C70B005D26AB /* IntuneMAM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0060E411E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B0965AA17F25770002BDFB8;
+			remoteInfo = ADALiOS;
+		};
+		F0060E431E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D664F1B41D302B9C0017B799;
+			remoteInfo = "ADAL-core";
+		};
+		F0060E451E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9453C3CC1C583E07006B9E79;
+			remoteInfo = ADAL;
+		};
+		F0060E471E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B0965BA17F25770002BDFB8;
+			remoteInfo = ADALiOSTests;
+		};
+		F0060E491E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9453C3FD1C586425006B9E79;
+			remoteInfo = "ADAL Mac";
+		};
+		F0060E4B1E48D034005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94DD18E11C5ACFBF00F80C62;
+			remoteInfo = "ADAL Mac Tests";
+		};
+		F0060E501E48D509005D26AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9453C3CB1C583E07006B9E79;
+			remoteInfo = ADAL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0060E521E48D509005D26AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0060E4F1E48D509005D26AB /* ADAL.framework in Embed Frameworks */,
+				F0060E541E48D537005D26AB /* IntuneMAM.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F0060E061E48C54B005D26AB /* IntuneExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntuneExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +103,19 @@
 		F0060E101E48C54B005D26AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0060E131E48C54B005D26AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0060E151E48C54B005D26AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0060E1C1E48C6AE005D26AB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F0060E1E1E48C6B6005D26AB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F0060E201E48C6BF005D26AB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F0060E221E48C6C9005D26AB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F0060E241E48C6D3005D26AB /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F0060E261E48C6E1005D26AB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F0060E281E48C6E8005D26AB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F0060E2A1E48C6EF005D26AB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F0060E2C1E48C6F7005D26AB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F0060E2E1E48C70B005D26AB /* IntuneMAM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntuneMAM.framework; path = "../../ms-intune-app-sdk-ios/Release/IntuneMAM.framework"; sourceTree = "<group>"; };
+		F0060E301E48C762005D26AB /* IntuneMAMResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IntuneMAMResources.bundle; sourceTree = "<group>"; };
+		F0060E321E48C79A005D26AB /* IntuneExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IntuneExample.entitlements; sourceTree = "<group>"; };
+		F0060E371E48D034005D26AB /* ADAL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ADAL.xcodeproj; path = adal/ADAL/ADAL.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +123,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0060E2F1E48C70B005D26AB /* IntuneMAM.framework in Frameworks */,
+				F0060E2D1E48C6F7005D26AB /* AudioToolbox.framework in Frameworks */,
+				F0060E2B1E48C6EF005D26AB /* LocalAuthentication.framework in Frameworks */,
+				F0060E4E1E48D509005D26AB /* ADAL.framework in Frameworks */,
+				F0060E291E48C6E8005D26AB /* ImageIO.framework in Frameworks */,
+				F0060E271E48C6E1005D26AB /* libc++.tbd in Frameworks */,
+				F0060E251E48C6D3005D26AB /* libsqlite3.tbd in Frameworks */,
+				F0060E231E48C6C9005D26AB /* SystemConfiguration.framework in Frameworks */,
+				F0060E211E48C6BF005D26AB /* MobileCoreServices.framework in Frameworks */,
+				F0060E1F1E48C6B6005D26AB /* Security.framework in Frameworks */,
+				F0060E1D1E48C6AE005D26AB /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +143,11 @@
 		F0060DFD1E48C54B005D26AB = {
 			isa = PBXGroup;
 			children = (
+				F0060E371E48D034005D26AB /* ADAL.xcodeproj */,
+				F0060E301E48C762005D26AB /* IntuneMAMResources.bundle */,
 				F0060E081E48C54B005D26AB /* IntuneExample */,
 				F0060E071E48C54B005D26AB /* Products */,
+				F0060E1B1E48C6AE005D26AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +162,7 @@
 		F0060E081E48C54B005D26AB /* IntuneExample */ = {
 			isa = PBXGroup;
 			children = (
+				F0060E321E48C79A005D26AB /* IntuneExample.entitlements */,
 				F0060E091E48C54B005D26AB /* AppDelegate.swift */,
 				F0060E0B1E48C54B005D26AB /* ViewController.swift */,
 				F0060E0D1E48C54B005D26AB /* Main.storyboard */,
@@ -62,6 +171,36 @@
 				F0060E151E48C54B005D26AB /* Info.plist */,
 			);
 			path = IntuneExample;
+			sourceTree = "<group>";
+		};
+		F0060E1B1E48C6AE005D26AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0060E2E1E48C70B005D26AB /* IntuneMAM.framework */,
+				F0060E2C1E48C6F7005D26AB /* AudioToolbox.framework */,
+				F0060E2A1E48C6EF005D26AB /* LocalAuthentication.framework */,
+				F0060E281E48C6E8005D26AB /* ImageIO.framework */,
+				F0060E261E48C6E1005D26AB /* libc++.tbd */,
+				F0060E241E48C6D3005D26AB /* libsqlite3.tbd */,
+				F0060E221E48C6C9005D26AB /* SystemConfiguration.framework */,
+				F0060E201E48C6BF005D26AB /* MobileCoreServices.framework */,
+				F0060E1E1E48C6B6005D26AB /* Security.framework */,
+				F0060E1C1E48C6AE005D26AB /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0060E381E48D034005D26AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0060E421E48D034005D26AB /* libADALiOS.a */,
+				F0060E441E48D034005D26AB /* libADAL-core.a */,
+				F0060E461E48D034005D26AB /* ADAL.framework */,
+				F0060E481E48D034005D26AB /* ADALiOSTests.xctest */,
+				F0060E4A1E48D034005D26AB /* ADAL.framework */,
+				F0060E4C1E48D034005D26AB /* ADAL Mac Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +213,12 @@
 				F0060E021E48C54B005D26AB /* Sources */,
 				F0060E031E48C54B005D26AB /* Frameworks */,
 				F0060E041E48C54B005D26AB /* Resources */,
+				F0060E521E48D509005D26AB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F0060E511E48D509005D26AB /* PBXTargetDependency */,
 			);
 			name = IntuneExample;
 			productName = IntuneExample;
@@ -98,6 +239,11 @@
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = M4E885RENP;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -112,6 +258,12 @@
 			mainGroup = F0060DFD1E48C54B005D26AB;
 			productRefGroup = F0060E071E48C54B005D26AB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F0060E381E48D034005D26AB /* Products */;
+					ProjectRef = F0060E371E48D034005D26AB /* ADAL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F0060E051E48C54B005D26AB /* IntuneExample */,
@@ -119,11 +271,57 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F0060E421E48D034005D26AB /* libADALiOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libADALiOS.a;
+			remoteRef = F0060E411E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0060E441E48D034005D26AB /* libADAL-core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libADAL-core.a";
+			remoteRef = F0060E431E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0060E461E48D034005D26AB /* ADAL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ADAL.framework;
+			remoteRef = F0060E451E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0060E481E48D034005D26AB /* ADALiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ADALiOSTests.xctest;
+			remoteRef = F0060E471E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0060E4A1E48D034005D26AB /* ADAL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ADAL.framework;
+			remoteRef = F0060E491E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F0060E4C1E48D034005D26AB /* ADAL Mac Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ADAL Mac Tests.xctest";
+			remoteRef = F0060E4B1E48D034005D26AB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F0060E041E48C54B005D26AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0060E311E48C762005D26AB /* IntuneMAMResources.bundle in Resources */,
 				F0060E141E48C54B005D26AB /* LaunchScreen.storyboard in Resources */,
 				F0060E111E48C54B005D26AB /* Assets.xcassets in Resources */,
 				F0060E0F1E48C54B005D26AB /* Main.storyboard in Resources */,
@@ -143,6 +341,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0060E511E48D509005D26AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADAL;
+			targetProxy = F0060E501E48D509005D26AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0060E0D1E48C54B005D26AB /* Main.storyboard */ = {
@@ -261,7 +467,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntuneExample/IntuneExample.entitlements;
 				DEVELOPMENT_TEAM = M4E885RENP;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = IntuneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.desjardins.intune-example";
@@ -274,7 +482,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IntuneExample/IntuneExample.entitlements;
 				DEVELOPMENT_TEAM = M4E885RENP;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = IntuneExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.desjardins.intune-example";
@@ -302,6 +512,7 @@
 				F0060E1A1E48C54B005D26AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
